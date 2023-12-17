@@ -3,7 +3,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver import Chrome
 import time
 import pytest
-import openpyxl
 
 @pytest.fixture(scope="session")
 def test_setup():
